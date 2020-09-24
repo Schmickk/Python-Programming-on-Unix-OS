@@ -1,0 +1,50 @@
+1. Write a Hello Schmick Python Program
+
+Create helloschmick.py program as shown below.
+
+$ vim helloschmick.py
+
+#!/usr/bin/python
+
+# Hello schmick python program
+
+print "Hello Schmick!";
+
+
+2. Verify Python Interpreter Availability
+
+Make sure python interpreter is installed on your system as shown below.
+
+$ whereis python
+python: /usr/bin/python /usr/bin/python2.5 /usr/bin/python2.6 /etc/python
+/etc/python2.5 /etc/python2.6 /usr/lib/python2.4 /usr/lib/python3.0
+/usr/lib/python2.5 /usr/lib/python2.6 /usr/local/lib/python2.5
+/usr/local/lib/python2.6 /usr/include/python2.5 /usr/include/python2.6
+/usr/share/python /usr/share/man/man1/python.1.gz
+
+$ which python
+/usr/bin/python
+
+
+3. Execute Python Program
+
+You can either execute using “python helloschmick.py” or “./helloschmick.py”.
+
+$ python helloschmick.py
+Hello Schmick!
+
+( or )
+
+$ chmod u+x helloschmick.py
+
+$ ./helloschmick.py
+Hello Schmick!
+
+Note: As python is an interpreted language, you don’t have the compilation step similar to the C program.
+
+
+4. Python one liner
+
+You can also execute python from the command line as shown below. This will print Hello Schmick!.
+
+$ python -c 'print "Hello Schmick!"'
